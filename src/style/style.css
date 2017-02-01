@@ -1,0 +1,27 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Nunito Sans', sans-serif;
+	background-color: #dddddd;
+}
+
+.page {
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+	body {
+		/*width: 500px;*/
+	}
+
+	.page {
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+.mithril-map { height: 100%; };

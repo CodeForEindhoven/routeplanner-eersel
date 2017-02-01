@@ -1,64 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Routeplanner Eersel</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,800">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+		<link rel="stylesheet" href="./style/style.css">
+	</head>
+	<body>
+		<div id="content">Wordt geladen...</div>
 
-    <style type="text/css">
-      .platform-ios .manual-ios-statusbar-padding {
-        padding-top: 20px;
-      }
-
-      .manual-remove-top-padding {
-        padding-top: 0px;
-      }
-
-      .manual-remove-top-padding .scroll {
-        padding-top: 0px !important;
-      }
-
-      ion-list.manual-list-fullwidth div.list,
-      .list.card.manual-card-fullwidth {
-        margin-left: -10px;
-        margin-right: -10px;
-      }
-
-      ion-list.manual-list-fullwidth div.list > .item,
-      .list.card.manual-card-fullwidth > .item {
-        border-radius: 0px;
-        border-left: 0px;
-        border-right: 0px;
-      }
-
-      .show-list-numbers-and-dots ul {
-        list-style-type: disc;
-        padding-left: 40px;
-      }
-
-      .show-list-numbers-and-dots ol {
-        list-style-type: decimal;
-        padding-left: 40px;
-      }
-    </style>
-    <link href="style/style.css" rel="stylesheet">
-    <script src="js/app.js"></script>
-    <script src="js/rosm.js"></script>
-    <script src="js/main.js"></script>
-    <!-- Only required for Tab projects w/ pages in multiple tabs
-      <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
-      -->
-  </head>
-  <body ng-app="app" animation="slide-left-right-ios7">
-    <div style="">
-      <div style="">
-        <ion-nav-bar class="bar-stable">
-          <ion-nav-back-button></ion-nav-back-button>
-        </ion-nav-bar>
-        <ion-nav-view></ion-nav-view>
-      </div>
-    </div>
-  </body>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mithril/0.2.3/mithril.min.js"></script>
+		<script src="https://goodnekk.github.io/bukowski.js/release/0.3.0/bukowski.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+		<script src="js/Paper.js" charset="utf-8"></script>
+		<script src="js/MenuBar.js" charset="utf-8"></script>
+		<script src="js/HomePage.js" charset="utf-8"></script>
+		<script src="js/StatsPage.js" charset="utf-8"></script>
+		<script src="js/Main.js" charset="utf-8"></script>
+	</body>
 </html>
