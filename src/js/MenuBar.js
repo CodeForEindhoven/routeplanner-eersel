@@ -83,7 +83,7 @@ var MenuBar = (function(){
 		},
 		view: function(ctrl){
 			return m("nav", {class: style.parent}, [
-				m("img",{class: style.logo, src: "/img/white_container2.svg"}),
+				//m("img",{class: style.logo, src: "/img/white_container2.svg"}),
 				m("span","Routeplanner Gemeente Eersel"),
 				m("i", {
 					class: style.menubutton+" material-icons",
